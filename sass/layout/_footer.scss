@@ -1,0 +1,13 @@
+.footer {
+
+    &__social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &--icon {
+            margin-left: 2rem;
+        }
+
+    }  
+}

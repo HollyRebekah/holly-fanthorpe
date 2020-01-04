@@ -46,6 +46,13 @@ body {
   .bg-video__content {
     object-fit: cover; }
 
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .footer__social--icon {
+    margin-left: 2rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
