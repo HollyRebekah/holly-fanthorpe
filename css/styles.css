@@ -15,14 +15,24 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   /*font-size: 16px;*/
-  line-height: 1.7; }
+  line-height: 1.7;
+  padding: 1.5rem; }
 
 .heading__primary {
   color: #1e452f;
   letter-spacing: 8px; }
   .heading__primary--main {
+    display: block;
     font-size: 6rem;
     font-weight: 800; }
+  .heading__primary--sub {
+    display: block; }
+
+.heading__secondary {
+  display: inline-block; }
+
+.u-center-text {
+  text-align: center !important; }
 
 .bg-video {
   position: absolute;
@@ -32,7 +42,7 @@ body {
   width: 100%;
   z-index: -1;
   overflow: hidden;
-  opacity: 0.8; }
+  opacity: 0.75; }
   .bg-video__content {
     object-fit: cover; }
 
@@ -73,3 +83,7 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     text-transform: uppercase; }
+
+.projects {
+  padding: 10rem 0;
+  background-color: #d7dfd7; }
