@@ -1,0 +1,16 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+ }
+
+ .heading__primary {
+     color: $dark-green;
+     letter-spacing: 8px;
+
+     &--main {
+        font-size: 6rem;
+        font-weight: 800;
+     } 
+ }
