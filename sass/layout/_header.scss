@@ -2,6 +2,7 @@
     height: 100vh;
     padding: $padding-default;
     position: relative;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
 
     &__text-box {
         position: absolute;

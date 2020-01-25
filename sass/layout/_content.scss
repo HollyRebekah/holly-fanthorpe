@@ -1,9 +1,13 @@
 .projects {
     padding: 5rem 0;
     background-color: $light-grey;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+    margin-top: -10.8rem;
 
     @media (max-width: 1029px) {
         padding: 2rem 0;
+        clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+        margin-top: -11.5rem;
     }
 
     &__grid {

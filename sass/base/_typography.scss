@@ -29,6 +29,21 @@ body {
       display: inline-block;
       font-size: 4rem;
       font-weight: 800;
+      padding-top: 3rem;
+
+      @media (max-width: 1029px) {
+         width: 75vw;
+         padding-top: 4rem;
+     }
+   }
+
+   &__tertiary {
+      color: $dark-green;
+      display: inline-block;
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      display: block;
    }
 }
 
