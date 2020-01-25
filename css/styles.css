@@ -92,11 +92,19 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 52rem;
-  width: 75%;
+  height: 70vh;
+  width: 40vw;
   margin-bottom: 3rem; }
+  @media (max-width: 1029px) {
+    .card {
+      width: 75vw;
+      margin-bottom: 6rem; } }
+  @media (max-width: 700px) {
+    .card {
+      height: 70vh;
+      margin-bottom: 3rem; } }
   .card__side {
-    height: 52rem;
+    height: 70vh;
     transition: all 1.5s ease;
     position: absolute;
     top: 0;
@@ -107,14 +115,27 @@ body {
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
-      background-color: #f1efef; }
+      background-color: #f1efef;
+      padding: 2rem;
+      position: relative;
+      text-align: center; }
     .card__side--back {
       transform: rotateY(180deg);
-      background-color: #f1efef; }
+      background-color: #f1efef;
+      text-align: center;
+      padding: 2rem; }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
     transform: rotateY(0); }
+  .card__img {
+    height: 35rem;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
 
 .projects__card {
   perspective: 150rem;
@@ -147,18 +168,6 @@ body {
     transform: rotateY(-180deg); }
   .projects__card:hover .projects__card__side--back {
     transform: rotateY(0); }
-  @media (max-width: 1029px) {
-    .projects__card {
-      width: 75vw;
-      margin-bottom: 6rem; } }
-  @media (max-width: 700px) {
-    .projects__card {
-      height: 70vh;
-      margin-bottom: 3rem; } }
-
-.projects__img {
-  height: 35rem;
-  border-radius: 3px; }
 
 .videoInsert {
   width: 100%; }
@@ -179,7 +188,8 @@ body {
     justify-items: center; }
 
 .footer {
-  background-color: #d7dfd7; }
+  background-color: #d7dfd7;
+  padding: 0 3rem 0; }
   .footer__social {
     display: flex;
     flex-direction: row;
@@ -191,7 +201,7 @@ body {
       fill: #1e452f;
       transition: all .5s; }
       .footer__social--icon:hover {
-        transform: translateY(-2.5rem); }
+        transform: translateY(-2rem); }
 
 .header {
   height: 100vh;

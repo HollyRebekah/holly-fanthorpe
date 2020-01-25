@@ -1,5 +1,6 @@
 .footer {
     background-color: $light-grey;
+    padding: 0 3rem 0;
 
     &__social{
         display: flex;
@@ -14,7 +15,7 @@
             transition: all .5s;
 
             &:hover {
-                transform: translateY(-2.5rem);
+                transform: translateY(-2rem);
             }
         }
 
