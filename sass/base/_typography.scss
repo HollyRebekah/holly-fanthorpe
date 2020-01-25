@@ -6,21 +6,36 @@ body {
     padding: 1.5rem;
  }
 
- .heading__primary {
-     color: $dark-green;
-     letter-spacing: 8px;
+ .heading{
+  margin-bottom: 3rem;
 
-     &--main {
-        display: block;
-        font-size: 6rem;
-        font-weight: 800;
-     } 
+   &__primary {
+      color: $dark-green;
+      letter-spacing: 8px;
+ 
+      &--main {
+         display: block;
+         font-size: 6rem;
+         font-weight: 800;
+      } 
+ 
+      &--sub {
+         display: block;
+      }
+   }
 
-     &--sub {
-        display: block;
-     }
+   &__secondary {
+      color: $dark-green;
+      display: inline-block;
+      font-size: 4rem;
+      font-weight: 800;
+   }
+}
+
+ .name-1 {
+   animation: moveInLeft 1s ease-in;
  }
 
- .heading__secondary {
-    display: inline-block;
+ .name-2 {
+   animation: moveInRight 1s ease-in;
  }

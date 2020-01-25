@@ -1,0 +1,15 @@
+.projects {
+    padding: 5rem 0;
+    background-color: $light-grey;
+
+    @media (max-width: 1029px) {
+        padding: 2rem 0;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+        justify-items: center;
+    }
+}
+

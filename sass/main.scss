@@ -1,13 +1,14 @@
 @import "abstracts/mixin";
 @import "abstracts/variables";
 
+@import "base/animations";
 @import "base/base";
 @import "base/typography";
 @import "base/utils";
 
 @import "components/bgvideo";
+@import "components/projects";
 
+@import "layout/content";
 @import "layout/footer";
-@import "layout/grid";
 @import "layout/header";
-@import "layout/projects";
